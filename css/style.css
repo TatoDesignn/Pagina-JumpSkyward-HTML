@@ -1,0 +1,133 @@
+@font-face{
+    font-family: "Cooperplate";
+    src: url(../Fuentes/Copperplate\ Gothic\ Bold\ Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --fuente: "Cooperplate";
+    --titulopx: 13.0rem;
+    --textopx: 3.0rem;
+    --navpx: 5.1rem;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    width: 100%;
+    height: 700px;
+    background-image: url(../Imagenes/FondoInicio.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu{
+    width: 100%;
+    height: 10.0rem;
+    font-size: var(--navpx);
+    display: grid;
+    place-items: center;
+}
+
+.menu li{
+    display: inline-block;
+    padding-left: 7.0rem;
+}
+
+.menu a{
+    font-family: var(--fuente);
+    color: white;
+}
+
+.menu a:hover{
+    color: #0066D0;
+}
+
+.logo{
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
+}
+
+.logo img{
+    padding-top: 50px;
+    width: 45%;
+}
+
+.Historia{
+    width: 100%;
+    height: 700px;
+    background-image: url(../Imagenes/FondoHistoria.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 400 200px;
+    display: grid;
+    place-items: center;
+}
+
+.Historia-info{
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.Historia-info img{
+    width: 20%;
+    height: auto;
+    margin-right: 10.0rem;
+}
+
+.Historia-Descripcion h2{
+    width: 100%;
+    height: auto;
+    font-family: var(--fuente);
+    font-size: var(--titulopx);
+    color: #23A1E4;
+    display: grid;
+    justify-content: center; 
+}
+
+.Historia-Descripcion p{
+    font-family: var(--fuente);
+    font-size: var(--textopx);
+    color: white;
+    width: 100%;
+    text-align: justify;
+}
+
+.Personajes{
+    width: 100%;
+    height: 700px;
+    background-image: url(../Imagenes/FondoPersonajes.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+
+}
+
+.Personajes h1{
+    font-family: var(--fuente);
+    font-size: var(--titulopx);
+    color: #372B3E;
+}
+
+.Personajes img{
+    width: 40%;
+    height: auto;
+    position: relative;
+    bottom: 80px;
+}
