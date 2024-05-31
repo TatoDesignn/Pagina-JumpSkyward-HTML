@@ -109,7 +109,7 @@ header{
 
 .Personajes{
     width: 100%;
-    height: 700px;
+    height: 900px;
     background-image: url(../Imagenes/FondoPersonajes.png);
     background-size: cover;
     background-position: center;
@@ -130,4 +130,143 @@ header{
     height: auto;
     position: relative;
     bottom: 80px;
+}
+
+.JefeFinal{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../Imagenes/FondoJefe.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 400 200px;
+    display: grid;
+    place-items: center;
+}
+
+.Jefe-info{
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.Jefe-info img{
+    position: relative;
+    bottom: 120px;
+}
+
+.Jefe-descripcion{
+    padding-top: 80px;
+}
+
+.Jefe-descripcion h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--fuente);
+    font-size: var(--titulopx);
+    color: #C1571D;
+    display: grid;
+    justify-content: center; 
+}
+
+.Jefe-descripcion p{
+    font-family: var(--fuente);
+    font-size: var(--textopx);
+    color: white;
+    width: 100%;
+    text-align: justify;
+}
+
+.Controles{
+    width: 100%;
+    height: 900px;
+    background-image: url(../Imagenes/FondoControles.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+}
+
+.Controles h1{
+    width: 100%;
+    height: auto;
+    font-family: var(--fuente);
+    font-size: var(--titulopx);
+    color: #18FFFF;
+    display: grid;
+    justify-content: center; 
+}
+
+.Controles img{
+    position: relative;
+    bottom: 50px;
+}
+
+.Video{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../Imagenes/FondoVideo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+}
+
+.Video img{
+    width: 1300px;
+    height: auto;
+}
+
+.Enlaces{
+    width: 100%;
+    height: 900px;
+    background-image: url(../Imagenes/Enlaces.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.Enlaces h1{
+    width: 100%;
+    height: 200px;
+    font-family: var(--fuente);
+    font-size: var(--titulopx);
+    color: #01BE94;
+    display: grid;
+    justify-content: center; 
+}
+
+.Enlaces a{
+    font-family: var(--fuente);
+    font-size: var(--textopx);
+    color: white;
+
+    text-align: center;
+    position: relative;
+    display: grid;
+    justify-content: center;
+}
+
+.Enlaces a:hover{
+    color: #01BE94;
+}
+
+.Enlaces p{
+    height: 130px;
+}
+
+.Creditos{
+    width: 100%;
+    height: 400px;
+    background-image: url(../Imagenes/FondoLogos.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
 }
