@@ -1,1 +1,1 @@
-<h1>Pagina Jump Skyward </h1>
+<h1>Pagina Jump Skyward</h1>
